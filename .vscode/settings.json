@@ -9,6 +9,7 @@
   "files.trimTrailingWhitespace": true, //末尾の空白をトリミング
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colorOnWhiteSpaceOnly": false,
+  "typescript.tsdk": "./react-bbs/node_modules/typescript/lib",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4
