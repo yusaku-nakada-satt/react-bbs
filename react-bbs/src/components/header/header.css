@@ -1,0 +1,12 @@
+.App-header {
+  background-color: yellowgreen;
+  height: 20%;
+  padding: 20px;
+  color: white;
+}
+
+a {
+  color: white;
+  float: right;
+  text-align: center;
+}
