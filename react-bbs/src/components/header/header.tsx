@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -7,7 +8,11 @@ function Header() {
       <header className="App-header">
         <div className="app-name">
           React BBS
-          <a href="#">スレッドを立てる</a>
+          <span>
+            <p className="thred-link">
+              <Link to={`/thred/new`}>スレッドを立てる</Link>
+            </p>
+          </span>
         </div>
       </header>
     </div>
