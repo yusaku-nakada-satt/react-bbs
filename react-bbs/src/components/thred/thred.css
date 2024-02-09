@@ -1,0 +1,12 @@
+.message {
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.content{
+  width: 80%;
+}
