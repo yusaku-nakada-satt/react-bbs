@@ -15,3 +15,12 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+.message {
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
