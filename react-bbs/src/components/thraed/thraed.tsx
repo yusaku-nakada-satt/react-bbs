@@ -59,6 +59,7 @@ function Thred() {
         : [];
       const nextPageData = await CallApi(page + 1);
       console.info(`nextPageData: ${nextPageData.length}`);
+
       if (nextPageData.length > 0) {
         setnextPageBottonVisible(true);
         console.info(`次のページ:${page}`);
