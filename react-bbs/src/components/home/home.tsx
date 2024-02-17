@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [title, setTitle] = useState<Array<Map<string, string>>>([]);
@@ -44,7 +45,11 @@ function Home() {
   return (
     <div className="App-body">
       {title.map((item, index) => (
-        <div key={index}>{item.get("title")}</div>
+        <div key={index}>
+          <Link to={`/thread/${item.get("id")}`}>
+            {item.get("title")}/{item.get("id")}
+          </Link>
+        </div>
       ))}
     </div>
   );
